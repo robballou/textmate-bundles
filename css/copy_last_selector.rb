@@ -17,8 +17,15 @@
 #     # =>
 #     div a, div ${1:a} { ... }
 #
+# TEXTMATE 1:
+# =============================
 # Input: selected text or line
 # Output: Insert as Snippet
+#
+# TEXTMATE 2:
+# =============================
+# Input: Line, Format: Text
+# Output: Replace Input, Format: Snippet
 
 # try to guess what the part of the selector we should "select" in the snippet
 def guess_selection(selector)
